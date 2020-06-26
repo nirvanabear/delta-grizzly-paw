@@ -1,0 +1,106 @@
+{
+  "name" : "Apollo (fullscreen landscape)",
+  "identifier" : "com.delta.gbc.apollo",
+  "gameTypeIdentifier" : "com.rileytestut.delta.game.gbc",
+  "debug" : false,
+  "representations" : {
+    "iphone" : {
+        "landscape" : {
+          "assets" : {
+            "resizable" : "iphone_landscape.pdf"
+          },
+          "items" : [
+            {
+              "inputs" : {
+                "up" : "up",
+                "down" : "down",
+                "left" : "left",
+                "right" : "right"
+              },
+              "frame" : {
+                "x" : 0,
+                "y" : 95,
+                "width" : 153,
+                "height" : 153
+              }
+            },
+            {
+              "inputs" : [
+                "a"
+              ],
+              "frame" : {
+                "x" : 590,
+                "y" : 124,
+                "width" : 74,
+                "height" : 74
+              },
+              "extendedEdges" : {
+                "left" : 25,
+                "down" : 0
+              }
+            },
+            {
+              "inputs" : [
+                "b"
+              ],
+              "frame" : {
+                "x" : 515,
+                "y" : 240,
+                "width" : 74,
+                "height" : 74
+              },
+              "extendedEdges" : {
+                "up" : 0,
+                "right" : 20
+              }
+            },
+            {
+              "inputs" : [
+                "start"
+              ],
+              "frame" : {
+                "x" : 343,
+                "y" : 334,
+                "width" : 73,
+                "height" : 26
+              }
+            },
+            {
+              "inputs" : [
+                "select"
+              ],
+              "frame" : {
+                "x" : 250,
+                "y" : 334,
+                "width" : 73,
+                "height" : 26
+              }
+            },
+            {
+              "inputs" : [
+                "menu"
+              ],
+              "frame" : {
+                "x" : 297,
+                "y" : 15,
+                "width" : 73,
+                "height" : 26
+              }
+            }
+          ],
+          "mappingSize" : {
+            "width" : 667,
+            "height" : 375
+          },
+          "extendedEdges" : {
+            "top" : 20,
+            "bottom" : 20,
+            "left" : 20,
+            "right" : 20
+          },
+          "translucent" : true
+        }
+      }
+    }
+  
+}
